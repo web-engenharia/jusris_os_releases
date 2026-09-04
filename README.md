@@ -15,18 +15,21 @@ Canal público de **distribuição do executável JusrisOS** e do **feed de atua
   - `updates/manifest.json.sig` — assinatura Ed25519 dos bytes exatos do manifest;
   - `updates/updates_ed25519.pub` — chave pública de verificação.
 
-URL do feed (após habilitar Pages):
+URL estável do feed (branch `main`, raw):
 
 ```
-https://web-engenharia.github.io/jusris_os_releases/updates/manifest.json
+https://raw.githubusercontent.com/web-engenharia/jusris_os_releases/main/updates/manifest.json
 ```
+
+(Pages também fica habilitado no repo, mas o raw da branch `main` é a fonte
+canônica do feed — sem depender de DNS/domínio customizado.)
 
 ## Como o app usa
 
 Configuração do desktop (env):
 
 ```bash
-UPDATES_URL=https://web-engenharia.github.io/jusris_os_releases
+UPDATES_URL=https://raw.githubusercontent.com/web-engenharia/jusris_os_releases/main
 UPDATES_PUBLIC_KEY_FILE=/caminho/updates_ed25519.pub   # ou UPDATES_PUBLIC_KEY=<base64>
 ```
 
