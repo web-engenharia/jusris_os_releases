@@ -1,0 +1,30 @@
+{
+  "channel": "stable",
+  "releases": [
+    {
+      "artifacts": [
+        {
+          "platform": "linux-x86_64",
+          "sha256": "4fade4c40c55f01e5f5e246274ef08706ecb22654ceedd66b0940b460342f9f8",
+          "size": 26984648,
+          "url": "https://raw.githubusercontent.com/web-engenharia/jusris_os_releases/main/updates/artifacts/jusrisos_desktop_linux"
+        },
+        {
+          "platform": "win-x86_64",
+          "sha256": "adf280d39635dfbe7815694ca4a1bc4fdfe6efa42f616b22d016def5a5b584d4",
+          "size": 26509312,
+          "url": "https://raw.githubusercontent.com/web-engenharia/jusris_os_releases/main/updates/artifacts/jusrisos_desktop_win64.exe"
+        },
+        {
+          "platform": "mac-aarch64",
+          "sha256": "45c93aeeb0b79284da9d6529d02c05e99484f0c2c6c3791f7979a061779c04aa",
+          "size": 15243104,
+          "url": "https://raw.githubusercontent.com/web-engenharia/jusris_os_releases/main/updates/artifacts/jusrisos_desktop_macos"
+        }
+      ],
+      "published_at": "2026-09-04T19:42:51.043463Z",
+      "version": "0.1.0"
+    }
+  ],
+  "schema": 1
+}
