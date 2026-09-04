@@ -5,25 +5,25 @@
       "artifacts": [
         {
           "platform": "linux-x86_64",
-          "sha256": "c1915be1c14ccb09c39e3bab55854350e8ed609e059d95dbaf7b7df739f12d89",
-          "size": 26994120,
-          "url": "https://github.com/web-engenharia/jusris_os_releases/releases/download/v0.1.0/jusrisos_desktop_linux"
+          "sha256": "f63ea4d62ba54c04222dd6cecf8e4e4ed399982c95198453cffe3009c802cc88",
+          "size": 27031688,
+          "url": "https://github.com/web-engenharia/jusris_os_releases/releases/download/v0.2.0/jusrisos_desktop_linux"
         },
         {
           "platform": "win-x86_64",
-          "sha256": "17e9df01921241374a9e8c8164069512bd0ca2ffbf3251f586449cd53f899bef",
-          "size": 26506240,
-          "url": "https://github.com/web-engenharia/jusris_os_releases/releases/download/v0.1.0/jusrisos_desktop_win64.exe"
+          "sha256": "5f99b10be131f5513defe58ea93d3c69f129465ae2e6923c5698799fc4bb6e54",
+          "size": 26545664,
+          "url": "https://github.com/web-engenharia/jusris_os_releases/releases/download/v0.2.0/jusrisos_desktop_win64.exe"
         },
         {
           "platform": "mac-aarch64",
-          "sha256": "5db0a08c875a1226d65a0ce0e246eb650d7d30cdc05d2d904ec71fc468b3fa9f",
-          "size": 15259520,
-          "url": "https://github.com/web-engenharia/jusris_os_releases/releases/download/v0.1.0/jusrisos_desktop_macos"
+          "sha256": "d1bda3c7b81b0a660a47b2946d65f709f5808f3cf51460bc5c5036a3f71e09f6",
+          "size": 15275936,
+          "url": "https://github.com/web-engenharia/jusris_os_releases/releases/download/v0.2.0/jusrisos_desktop_macos"
         }
       ],
-      "published_at": "2026-09-04T20:48:13.890551Z",
-      "version": "0.1.0"
+      "published_at": "2026-09-04T22:09:22.698572Z",
+      "version": "0.2.0"
     }
   ],
   "schema": 1
